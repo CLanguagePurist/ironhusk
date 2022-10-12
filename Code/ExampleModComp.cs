@@ -6,17 +6,17 @@ using Game.Data;
 using Game.Utils;
 using UnityEngine;
 
-namespace ExampleMod.Components {
+namespace Ironhusk.Components {
     // WARNING Don't forget to replace BaseComponent<ExampleModComp>
     // with correct component class name
-    public sealed class ExampleModComp : BaseComponent<ExampleModComp>, IUIDataProvider,
+    public sealed class IronhuskComp : BaseComponent<IronhuskComp>, IUIDataProvider,
             IUIContextMenuProvider, IAdvertProvider, IUIMultiSelectable {
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.
             SubsystemRegistration)]
         private static void Register() {
             // Uncomment the following with correct class name to register
             // the component at runtime when mod loads
-            AddComponentPrototype(new ExampleModComp());
+            AddComponentPrototype(new IronhuskComp());
         }
 
         private int stuff;

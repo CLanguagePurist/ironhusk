@@ -1,6 +1,5 @@
 Key,Translation,Version,Comment (context for translators)
-objects.devices.modtest,Mod Test,
-objects.devices.modtest.desc,Description about Mod Test device,
-example.translation.key,Example translation key,
-example.key.test1,Test 1,
-item.text,{0} => {1},
+objects.devices.ironhusk,Ironhusk,,
+objects.devices.ironhusk.desc,"Add a new plant to Stadeus game that produces iron, called Ironhusk.",,
+obj.plants.ironhusk,Ironhusk,,
+obj.plants.ironhusk.desc,A special type of plant that produces iron when matured.,,
